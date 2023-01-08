@@ -15,12 +15,12 @@ body {
 
 /*Navigation*/
 
-.nav {
+.nav-section {
     color: #2E2F42;
 }
 
-.nav:hover, 
-.nav:focus {
+.nav-section:hover, 
+.nav-section:focus {
   color: #404BBF;
 }
 
@@ -35,7 +35,8 @@ body {
     color: #404BBF;
 }
 
-/*Filter*/
+/*Portfolio page*/
+/*Buttons*/
 
 .button {
     background-color: #F4F4FD;
@@ -57,9 +58,53 @@ body {
 
 /*Footer*/
 
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-1 {
+    color: #F4F4FD;
+}
+
 .footer-text {
+    color: #E7E9FC;
+}
+
+/*Studio page*/
+/*Hero*/
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-text {
+    color: #FFF;
+}
+
+.order {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+
+.order:hover,
+.order:focus {
+    background-color: #404BBF;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*Benefits*/
+
+.benefits-text {
     color: #434455;
 }
 
+/*Our team*/
 
+.team {
+    background-color: #F4F4FD;
+}
 
+.team-text {
+    color: #434455;
+}
