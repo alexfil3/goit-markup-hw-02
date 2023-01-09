@@ -1,110 +1,130 @@
+:root {
+    --primary-bgc-color: #fff;
+    --secondary-bgc-color:#2E2F42;
+    --third-bgc-color: #F4F4FD;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color:#434455;
+    --hero-text-color: #fff;
+    --web-logo-color: #4D5AE5;
+    --nav-active-color: #404BBF;
+    --footer-studio-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --order-button-color: #4D5AE5;
+    --order-text-color: #FFF;
+    --order-active-button-color: #404BBF;
+    --buttons-bgc-color: #F4F4FD;
+    --buttons-text-color: #4D5AE5;
+    --buttons-active-bgc-color: #404BBF;
+    --buttons-active-text-color: #fff;
+}
+
 body {
-    background-color: #fff;
-    color: #2E2F42;
+    background-color: var(--primary-bgc-color);
+    color: var(--primary-text-color);
 }
 
 /*Logo*/
 
 .logo {
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 .logo-text {
-    color: #4D5AE5;
+    color: var(--web-logo-color);
 }
 
 /*Navigation*/
 
 .nav-section {
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 .nav-section:hover, 
 .nav-section:focus {
-  color: #404BBF;
+  color: var(--nav-active-color);
 }
 
 /*address*/
 
 .contacts-link {
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404BBF;
+    color: var(--nav-active-color);
 }
 
 /*Portfolio page*/
 /*Buttons*/
 
 .button {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+    background-color: var(--buttons-bgc-color);
+    color: var(--buttons-text-color);
 }
 
 .button:hover,
 .button:focus {
-    background-color: #404BBF;
-    color: #FFF;
+    background-color: var(--buttons-active-bgc-color);
+    color: var(--buttons-active-text-color);
     cursor: pointer;
 }
 
 /*Examples of work*/
 
 .example-text {
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 
 /*Footer*/
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--secondary-bgc-color);
 }
 
 .logo-1 {
-    color: #F4F4FD;
+    color: var(--footer-studio-color);
 }
 
 .footer-text {
-    color: #E7E9FC;
+    color: var(--footer-text-color);
 }
 
 /*Studio page*/
 /*Hero*/
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--secondary-bgc-color);
 }
 
 .hero-text {
-    color: #FFF;
+    color: var(--hero-text-color);
 }
 
 .order {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+    background-color: var(--order-button-color);
+    color: var(--order-text-color);
 }
 
 .order:hover,
 .order:focus {
-    background-color: #404BBF;
-    color: #FFF;
+    background-color: var(--order-active-button-color);
+    color: var(--order-text-color);
     cursor: pointer;
 }
 
 /*Benefits*/
 
 .benefits-text {
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 
 /*Our team*/
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--third-bgc-color);
 }
 
 .team-text {
-    color: #434455;
+    color: var(--secondary-text-color);
 }
