@@ -18,15 +18,29 @@
     --buttons-active-text-color: #fff;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     background-color: var(--primary-bgc-color);
     color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 
 /*Logo*/
 
 .logo {
     color: var(--primary-text-color);
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 }
 
 .logo-text {
@@ -37,6 +51,10 @@ body {
 
 .nav-section {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .nav-section:hover, 
@@ -48,6 +66,9 @@ body {
 
 .contacts-link {
     color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .contacts-link:hover,
@@ -61,6 +82,11 @@ body {
 .button {
     background-color: var(--buttons-bgc-color);
     color: var(--buttons-text-color);
+
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .button:hover,
@@ -72,8 +98,17 @@ body {
 
 /*Examples of work*/
 
+.example-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .example-text {
     color: var(--secondary-text-color);
+        
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /*Footer*/
@@ -84,10 +119,19 @@ body {
 
 .logo-1 {
     color: var(--footer-studio-color);
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
 }
 
 .footer-text {
     color: var(--footer-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /*Studio page*/
@@ -99,11 +143,20 @@ body {
 
 .hero-text {
     color: var(--hero-text-color);
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 
 .order {
     background-color: var(--order-button-color);
     color: var(--order-text-color);
+
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .order:hover,
@@ -115,8 +168,25 @@ body {
 
 /*Benefits*/
 
+.benefits-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .benefits-text {
     color: var(--secondary-text-color);
+    
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*What we are doing*/
+
+.illustrations {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
 }
 
 /*Our team*/
@@ -125,6 +195,21 @@ body {
     background-color: var(--third-bgc-color);
 }
 
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.team-names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .team-text {
     color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
 }
