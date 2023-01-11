@@ -100,15 +100,6 @@ body {
     cursor: pointer;
 }
 
-/*Examples of work*/
-
-.example-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
 /*Footer*/
 
 .footer {
@@ -194,11 +185,4 @@ body {
 
 .team {
     background-color: var(--third-bgc-color);
-}
-
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
 }
